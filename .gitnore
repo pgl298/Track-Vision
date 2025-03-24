@@ -1,0 +1,44 @@
+# Archivos binarios y ejecutables
+*.o
+*.out
+*.exe
+*.bin
+*.elf
+
+# Archivos de compilación e intermediarios
+build/
+dist/
+obj/
+*.a
+*.so
+*.dll
+
+# Archivos de logs
+*.log
+logs/
+debug.log
+error.log
+
+# Configuración específica de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos generados por GitHub Actions
+.github/workflows/*.log
+
+# Dependencias (en caso de bibliotecas externas)
+vendor/
+external/
+third_party/
+
+# Archivos temporales
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
